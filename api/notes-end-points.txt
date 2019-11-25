@@ -1,0 +1,91 @@
+all the api should start with api/v3
+post/sign-up
+
+post /sign-in
+
+
+
+
+get folder 
+post folder 
+put folder/:id 
+get folder/:id 
+delete folder/:id 
+get folder/search
+put folder/move
+delete folder/bulk-delete
+
+
+get profile
+put profile
+put profile/image
+delete profile/remove-collection
+delete profile/remove-profile
+
+
+get personalization
+post personalization
+
+get bookmark 
+post bookmark 
+put bookmark/:id 
+get bookmark/:id 
+delete bookmark/:id 
+get bookmark/search
+put bookmark/move
+delete bookmark/bulk-delete
+put bookmark/hashtags
+get bookmark/fetch
+
+
+get todo
+post todo
+post todo/done
+put todo/:id
+delete todo/:id
+
+
+
+
+get folder 
+post folder 
+put folder/:id 
+get folder/:id 
+delete folder/:id 
+get folder/search
+put folder/move
+delete folder/bulk-delete
+
+USER:
+  id
+  name
+  emailid
+  password
+  user_pref
+  created_at
+  updated_at
+Folder:
+  id
+  folder_name
+  user_id
+  created_at
+  updated_at
+NOTES:
+  id
+  title
+  content
+  image
+  user_id
+  folder_id
+  todo_list:[
+    {task:,is_completed },
+    {task:,is_completed }
+  ]
+
+  color
+  is_pinned    --   booleon 
+  is_bin  ---  booleon
+  created_at
+  updated_at
+
+
